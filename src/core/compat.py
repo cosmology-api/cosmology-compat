@@ -11,7 +11,7 @@ from cosmology.api import CosmologyAPIConformantWrapper, CosmologyAPINamespace
 
 
 @dataclass(frozen=True)
-class CosmologyWrapperBase(CosmologyAPIConformantWrapper, metaclass=ABCMeta):  # type: ignore[misc]  # noqa: E501
+class CosmologyWrapperBase(CosmologyAPIConformantWrapper, metaclass=ABCMeta):
     """Base class for Cosmology API wrappers."""
 
     cosmo: object

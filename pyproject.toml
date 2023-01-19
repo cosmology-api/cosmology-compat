@@ -1,5 +1,5 @@
 [project]
-  name = "cosmology.compat"
+  name = "cosmology._compat"
   version = "0.1.0"
   description = "Cosmology API standard compatability library"
   readme = "README.rst"
@@ -23,6 +23,7 @@
   ]
   dependencies = [
     "cosmology.api @ git+https://github.com/python-cosmology/cosmology-api.git",
+    "cosmology.compat.astropy @ git+https://github.com/python-cosmology/cosmology-compat-astropy.git"
   ]
 
 [project.optional-dependencies]

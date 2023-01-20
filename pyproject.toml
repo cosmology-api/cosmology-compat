@@ -23,7 +23,8 @@
   ]
   dependencies = [
     "cosmology.api @ git+https://github.com/python-cosmology/cosmology-api.git",
-    "cosmology.compat.astropy @ git+https://github.com/python-cosmology/cosmology-compat-astropy.git"
+    "cosmology.compat.astropy @ git+https://github.com/python-cosmology/cosmology-compat-astropy.git",
+    "cosmology.compat.astropy @ git+https://github.com/python-cosmology/cosmology-compat-camb.git"
   ]
 
 [project.optional-dependencies]

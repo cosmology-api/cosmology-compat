@@ -13,5 +13,5 @@ Installing
 ----------
 
 .. code::
-  
+
   pip install cosmology.compat

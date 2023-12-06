@@ -22,7 +22,7 @@
     "Programming Language :: Python :: 3",
   ]
   dependencies = [
-    "cosmology.api @ git+https://github.com/python-cosmology/cosmology-api.git",
+    "cosmology.api>=0.1",
     "cosmology.compat.astropy @ git+https://github.com/python-cosmology/cosmology-compat-astropy.git"
   ]
 
@@ -31,7 +31,7 @@
   ]
   test = [
     "coverage[toml]",
-    "numpy>=1.18",
+    "numpy>=1.19",
     "pytest",
     "pytest-astropy",
   ]
@@ -122,10 +122,10 @@
   warn_redundant_casts = true
   warn_unused_configs = true
   warn_unreachable = true
-  exclude = '''(^|/)tests/'''
+  exclude = '''(^|/)tests/|(^/)docs/|(^/)conftest\.py'''
 
   [[tool.mypy.overrides]]
-    module = "tests/*"
+    module = ["tests/*", "docs/*"]
     ignore_errors = true
 
   [[tool.mypy.overrides]]

@@ -60,7 +60,7 @@ jobs:
             toxargs: -v --develop
 
           - name: Python 3.9 with oldest supported version of all dependencies
-            os: ubuntu-20.04
+            os: ubuntu-22.04
             python: '3.9'
             toxenv: py39-test-oldestdeps-alldeps-cov-clocale
 

@@ -61,7 +61,7 @@
 
 [build-system]
   requires = [
-    "mypy>=0.991",
+    "mypy>=1.19.1",
     "setuptools>=45.0",
     "setuptools_scm[toml]>=9.2.2",
     "wheel",

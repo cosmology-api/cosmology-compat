@@ -31,13 +31,13 @@
   ]
   test = [
     "coverage[toml]",
-    "numpy>=1.19",
+    "numpy>=2.0.2",
     "pytest",
     "pytest-astropy",
   ]
   test_all = [
     "coverage[toml]",
-    "numpy>=1.19",
+    "numpy>=2.0.2",
     "pytest",
     "pytest-astropy",
   ]

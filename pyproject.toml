@@ -35,6 +35,12 @@
     "pytest",
     "pytest-astropy",
   ]
+  test_all = [
+    "coverage[toml]",
+    "numpy>=1.19",
+    "pytest",
+    "pytest-astropy",
+  ]
   docs = [
     "graphviz",
     "IPython",

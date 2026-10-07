@@ -1,3 +1,4 @@
+# Copyright (c) 2022, Nathaniel Starkman and Nicolas Tessore
 """The Cosmology API compatability libraries.
 
 This is a private module, and is not intended to be used by users.
